@@ -3,6 +3,7 @@ oddishOrEvenish = (num) =>{
     let txt = num.toString();
     let sum = 0;
     for(let i=0; i< txt.length; i++){
+        
         sum += parseInt(txt[i]);
     }
 
